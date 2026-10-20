@@ -1,0 +1,16 @@
+CHIPIX 1.0.0
+© 2026 Structural Bioinformatics & Bioactive Compound Synthesis Lab - UFRO
+
+CHIPIX provides an independent ChimeraX implementation of docking and pose
+consensus workflows inspired by DockingPie for PyMOL.
+
+Original DockingPie authors: Serena Rosignoli and Alessandro Paiardini.
+The original consensus scoring class, copyright 2022 Serena Rosignoli,
+is included verbatim under tests/reference solely for regression comparison.
+Original project: https://github.com/paiardin/DockingPie
+Publication: https://doi.org/10.1093/bioinformatics/btac452
+
+The CHIPIX source code is provided under GPL-3.0-or-later; see LICENSE.
+AutoDock Vina is a separate external program under Apache-2.0. Its original
+license accompanies the optional binary in engines/AutoDock-Vina-LICENSE.
+The supplied branding image is included unchanged in assets/chipix-logo.png.
