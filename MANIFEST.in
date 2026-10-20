@@ -1,0 +1,13 @@
+include README*.md INSTALLATION.md DOCUMENTATION.md CHANGELOG.md
+include LICENSE NOTICE bundle_info.xml manifest.json build_bundle.py compare_results.py
+recursive-include src *.py *.json *.png *.html LICENSE NOTICE
+recursive-include docs *.md *.png *.json
+recursive-include tests *.py
+recursive-include tools *.py *.tsv
+recursive-include engines *
+recursive-include validation *.py *.md *.json *.txt *.pdbqt
+recursive-include dist *.whl SHA256SUMS
+prune build
+prune validation/1iep/chimerax-runs
+exclude validation/1iep/chimerax-run-location.json
+global-exclude __pycache__ *.pyc *.pyo .DS_Store *.log

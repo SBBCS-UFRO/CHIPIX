@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BundleInfo name="ChimeraX-CHIPIX" version="1.0.0" package="chimerax.chipix"
+            minSessionVersion="1" maxSessionVersion="1" purePython="true">
+  <Author>Structural Bioinformatics &amp; Bioactive Compound Synthesis Lab - UFRO</Author>
+  <Email></Email>
+  <URL></URL>
+  <Synopsis>CHIPIX: molecular docking and pose consensus for ChimeraX</Synopsis>
+  <Description>CHIPIX provides a native ChimeraX interface for external Vina/Smina jobs, PDBQT/SDF analysis and reproducible pose consensus. Available in English, Spanish, German, French, Chinese, Japanese and Portuguese.</Description>
+  <License>GPL-3.0-or-later</License>
+  <Categories><Category name="Binding Analysis"/></Categories>
+  <Dependencies>
+    <Dependency name="ChimeraX-Core" version="&gt;=1.8"/>
+    <Dependency name="ChimeraX-UI" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-Atomic" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-PDB" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-Mol2" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-SDF" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-BILD" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-DockPrep" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-MouseModes" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-Label" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-ImageFormats" version="&gt;=1.0"/>
+    <Dependency name="ChimeraX-StdCommands" version="&gt;=1.0"/>
+  </Dependencies>
+  <DataFiles><DataDir>docs</DataDir><DataDir>assets</DataDir><DataDir>locales</DataDir><DataFile>LICENSE</DataFile><DataFile>NOTICE</DataFile></DataFiles>
+  <Classifiers>
+    <PythonClassifier>Development Status :: 4 - Beta</PythonClassifier>
+    <PythonClassifier>License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)</PythonClassifier>
+    <ChimeraXClassifier>ChimeraX :: Tool :: CHIPIX :: Binding Analysis :: Molecular docking and consensus</ChimeraXClassifier>
+    <ChimeraXClassifier>ChimeraX :: Command :: chipix :: Binding Analysis :: Open CHIPIX</ChimeraXClassifier>
+  </Classifiers>
+</BundleInfo>

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "name": "CHIPIX",
+  "version": "1.0.0",
+  "display_name": "CHIPIX",
+  "bundle": "ChimeraX-CHIPIX",
+  "python_package": "chimerax.chipix",
+  "command": "chipix",
+  "menu_category": "Binding Analysis",
+  "copyright": "© 2026 Structural Bioinformatics & Bioactive Compound Synthesis Lab - UFRO",
+  "license": "GPL-3.0-or-later",
+  "languages": [
+    "en",
+    "es",
+    "de",
+    "fr",
+    "zh",
+    "ja",
+    "pt"
+  ],
+  "language_default": "en",
+  "interface_translation": "offline, live, persisted per user",
+  "logo": "src/assets/chipix-logo.png",
+  "minimum_chimerax": "1.8",
+  "tested_chimerax": "1.12",
+  "tested_platform": "macOS Apple Silicon, Python 3.11, Qt6",
+  "wheel": "dist/chimerax_chipix-1.0.0-py3-none-any.whl",
+  "source_zip": "CHIPIX-1.0.0.zip",
+  "external_engines": {
+    "vina": {
+      "execution": true,
+      "real_run_validated": "1.2.7, official 1iep example"
+    },
+    "smina": {
+      "execution": true,
+      "real_run_validated": false
+    },
+    "rxdock": {
+      "execution": false,
+      "import": "supported SDF score field"
+    },
+    "adfr": {
+      "execution": false,
+      "import": "supported SDF score field or Vina-style PDBQT"
+    }
+  },
+  "documents": {
+    "readme": "README.md",
+    "installation": "INSTALLATION.md",
+    "documentation": "DOCUMENTATION.md",
+    "translations": "docs/{language}/",
+    "bundle_manifest": "bundle_info.xml",
+    "source_manifest": "MANIFEST.in",
+    "attribution": "NOTICE"
+  },
+  "release": {
+    "include_roots": [
+      "src",
+      "docs",
+      "tests",
+      "tools",
+      "engines",
+      "validation",
+      "dist"
+    ],
+    "exclude_parts": [
+      "__pycache__",
+      "build",
+      ".git",
+      "chimerax-runs"
+    ],
+    "exclude_suffixes": [
+      ".pyc",
+      ".pyo",
+      ".log"
+    ],
+    "exclude_names": [
+      ".DS_Store",
+      "chimerax-run-location.json"
+    ],
+    "checksum_file": "CHECKSUMS.sha256"
+  },
+  "customization": {
+    "live_box": true,
+    "rotation": "Euler XYZ degrees, Rz Ry Rx; local-frame docking with scene-frame pose recovery",
+    "mouse": "right-button move/resize/rotate; restores previous bindings",
+    "residue_sites": "native ChimeraX atom specifications and whole-residue option",
+    "box_styles": [
+      "outline",
+      "surface mesh",
+      "transparent faces",
+      "hidden"
+    ],
+    "rounded_joins": "visual; scientific boundary remains rectangular",
+    "distances": "native pseudobonds and live labels; independent CHIPIX group; CSV export",
+    "image_formats": [
+      "PNG",
+      "TIFF",
+      "JPEG"
+    ],
+    "transparent_image_formats": [
+      "PNG",
+      "TIFF"
+    ],
+    "image_options": [
+      "background",
+      "lighting",
+      "dimensions",
+      "supersampling",
+      "box",
+      "handles",
+      "distances"
+    ],
+    "presets": "validated portable JSON; image exports include camera/style metadata",
+    "layout": {
+      "preparation": "basic box controls with collapsed XYZ rotation, residue/atom specification and + Customize box sections",
+      "scene_and_image": "background, lighting and image export only",
+      "disclosure_state": "presentation only; folding preserves parameters"
+    }
+  },
+  "validation": {
+    "unit_tests": 65,
+    "native_ui": "ChimeraX 1.12 / Qt6: box styles, residues, distances, presets, mouse bindings, render scene restoration",
+    "oriented_vina": "validation/oriented/report.json",
+    "opengl": "native macOS cocoa: PNG, transparent RGBA PNG, TIFF, JPEG, all lighting presets",
+    "unrotated_vina": "validation/1iep/comparison.json; direct-engine parity"
+  },
+  "release_name": "CHIPIX 1.0.0",
+  "interface_header": "CHIPIX 1.0.0"
+}
