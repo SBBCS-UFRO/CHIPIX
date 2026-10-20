@@ -1,6 +1,6 @@
 <img src="src/assets/chipix-logo.png" width="80" align="right" alt="CHIPIX laboratory logo">
 
-# CHIPIX 1.0.0
+# CHIPIX
 
 **Molecular docking and pose consensus in ChimeraX**
 
