@@ -2,9 +2,9 @@
 
 <img src="long_logo.png" alt="CHIPIX-LOGO" width="760">
 
-**Molecular docking and pose consensus in ChimeraX**
+**Molecular docking and pose consensus in UCSF ChimeraX**
 
-CHIPIX is a native ChimeraX plugin from the Structural Bioinformatics & Bioactive Compound Synthesis Lab - UFRO. It combines external Vina/Smina docking, pose inspection and reproducible pairwise consensus in a dockable interface.
+CHIPIX is a native UCSF ChimeraX plugin from the Structural Bioinformatics & Bioactive Compound Synthesis Lab - UFRO. It combines external Vina/Smina docking, pose inspection and reproducible pairwise consensus in a dockable interface.
 
 [English](docs/en/README.md) · [Español](docs/es/README.md) · [Deutsch](docs/de/README.md) · [Français](docs/fr/README.md) · [简体中文](docs/zh/README.md) · [日本語](docs/ja/README.md) · [Português](docs/pt/README.md)
 
@@ -23,12 +23,12 @@ Live box editing: change center and size in Preparation and box. XYZ rotation an
 
 Download CHIPIX-1.0.0.zip and extract it. Locate the folder containing bundle_info.xml, README.md and dist/.
 
-Open ChimeraX and display its command line.
+Open UCSF ChimeraX and display its command line.
 
 Run the installation command below, replacing the path with the actual extracted folder. Use the wheel in dist/.
 
 ```text
-toolshed install "/FULL/PATH/CHIPIX-1.0.0/dist/chimerax_chipix-1.0.0-py3-none-any.whl"
+toolshed install "/FULL/PATH/CHIPIX-1.0.0/dist/UCSF ChimeraX_chipix-1.0.0-py3-none-any.whl"
 chipix
 ```
 
@@ -40,7 +40,7 @@ Select English, Español, Deutsch, Français, 简体中文, 日本語 or Portugu
 
 ## Requirements
 
-ChimeraX 1.8 or later is required. Integration was tested on ChimeraX 1.12 with Python 3.11 and Qt6 on macOS Apple Silicon. Other operating systems and ChimeraX versions need validation. Analysis and import use the Python standard library. Running docking additionally requires a compatible external Vina or Smina executable and prepared PDBQT inputs.
+UCSF ChimeraX 1.8 or later is required. Integration was tested on UCSF ChimeraX 1.12 with Python 3.11 and Qt6 on macOS Apple Silicon. Other operating systems and UCSF ChimeraX versions need validation. Analysis and import use the Python standard library. Running docking additionally requires a compatible external Vina or Smina executable and prepared PDBQT inputs.
 
 This source ZIP includes the official Vina 1.2.7 executable for macOS Apple Silicon in engines/. The wheel contains the plugin only. For Windows, Linux or Intel Macs, obtain the matching engine from its official release and select it with Browse. Smina is configured separately. If a copied macOS/Linux binary lacks execute permission, use chmod +x on that executable in a terminal.
 
@@ -63,6 +63,6 @@ For GitHub, extract the ZIP and upload the contents of its CHIPIX-1.0.0 folder a
 
 CHIPIX code is GPL-3.0-or-later; see LICENSE and NOTICE. The original DockingPie workflow and scoring equations are credited to Serena Rosignoli and Alessandro Paiardini. Cite their 2022 Bioinformatics publication, doi:10.1093/bioinformatics/btac452, and the engines used. Vina is a separate program under its included Apache-2.0 license.
 
-[DockingPie publication](https://doi.org/10.1093/bioinformatics/btac452) · [ChimeraX bundles](https://chimerax.readthedocs.io/en/latest/writing_bundles.html) · [AutoDock Vina](https://github.com/ccsb-scripps/AutoDock-Vina/releases/tag/v1.2.7)
+[DockingPie publication](https://doi.org/10.1093/bioinformatics/btac452) · [UCSF ChimeraX bundles](https://UCSF ChimeraX.readthedocs.io/en/latest/writing_bundles.html) · [AutoDock Vina](https://github.com/ccsb-scripps/AutoDock-Vina/releases/tag/v1.2.7)
 
 © 2026 Structural Bioinformatics & Bioactive Compound Synthesis Lab - UFRO
