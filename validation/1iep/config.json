@@ -1,0 +1,10 @@
+{
+  "engine_version": "AutoDock Vina v1.2.7",
+  "center": [15.190, 53.903, 16.917],
+  "size": [20.0, 20.0, 20.0],
+  "exhaustiveness": 8,
+  "num_modes": 9,
+  "energy_range": 3.0,
+  "seed": 42,
+  "cpu": 1
+}

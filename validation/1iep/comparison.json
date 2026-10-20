@@ -1,0 +1,75 @@
+{
+  "reference": "validation/1iep/direct-vina.pdbqt",
+  "reference_sha256": "82ad07667e1ede380684a57f6da3005fdbd9714fdf22ec358f589c4ae7c79db7",
+  "candidate": "validation/1iep/reference-vina.pdbqt",
+  "candidate_sha256": "82ad07667e1ede380684a57f6da3005fdbd9714fdf22ec358f589c4ae7c79db7",
+  "reference_pose_count": 4,
+  "candidate_pose_count": 4,
+  "rmsd_mode": "ordered",
+  "energy_tolerance": 0,
+  "rmsd_tolerance": 0,
+  "passed": true,
+  "poses": [
+    {
+      "rank": 1,
+      "reference_pose": 1,
+      "candidate_pose": 1,
+      "reference_score": -13.237,
+      "candidate_score": -13.237,
+      "energy_difference": 0.0,
+      "rmsd": 0.0,
+      "passed": true
+    },
+    {
+      "rank": 2,
+      "reference_pose": 2,
+      "candidate_pose": 2,
+      "reference_score": -11.229,
+      "candidate_score": -11.229,
+      "energy_difference": 0.0,
+      "rmsd": 0.0,
+      "passed": true
+    },
+    {
+      "rank": 3,
+      "reference_pose": 3,
+      "candidate_pose": 3,
+      "reference_score": -11.01,
+      "candidate_score": -11.01,
+      "energy_difference": 0.0,
+      "rmsd": 0.0,
+      "passed": true
+    },
+    {
+      "rank": 4,
+      "reference_pose": 4,
+      "candidate_pose": 4,
+      "reference_score": -10.569,
+      "candidate_score": -10.569,
+      "energy_difference": 0.0,
+      "rmsd": 0.0,
+      "passed": true
+    }
+  ],
+  "validation_kind": "native-chimerax-tool-vs-direct-engine",
+  "engine_version": "AutoDock Vina v1.2.7",
+  "settings": {
+    "engine_version": "AutoDock Vina v1.2.7",
+    "center": [
+      15.19,
+      53.903,
+      16.917
+    ],
+    "size": [
+      20.0,
+      20.0,
+      20.0
+    ],
+    "exhaustiveness": 8,
+    "num_modes": 9,
+    "energy_range": 3.0,
+    "seed": 42,
+    "cpu": 1
+  },
+  "note": "Identical prepared inputs, seed, CPU and parameters. This does not compare a PyMOL execution or establish biological accuracy."
+}

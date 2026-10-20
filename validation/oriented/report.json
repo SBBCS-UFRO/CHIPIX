@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "validation_kind": "real-vina-oriented-frame-recovery",
+  "engine": "Vina 1.2.7",
+  "engine_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+  "pose_count": 2,
+  "box": {
+    "center": [
+      15.19,
+      53.903,
+      16.917
+    ],
+    "size": [
+      20,
+      20,
+      20
+    ],
+    "rotation": [
+      15,
+      20,
+      35
+    ]
+  },
+  "coordinate_frame": {
+    "center": [
+      15.19,
+      53.903,
+      16.917
+    ],
+    "rotation": [
+      15,
+      20,
+      35
+    ],
+    "matrix_local_to_scene": [
+      [
+        0.7697511313200572,
+        -0.48151986732788643,
+        0.4190725631677964
+      ],
+      [
+        0.5389855446957562,
+        0.8420138624613815,
+        -0.02252194556170667
+      ],
+      [
+        -0.3420201433256687,
+        0.24321034680169396,
+        0.9076733711903687
+      ]
+    ],
+    "coordinate_precision_angstrom": 0.001
+  },
+  "max_coordinate_recovery_error_angstrom": 0.0007139929607993256,
+  "scores_preserved": true,
+  "prepared_inputs_preserved": true,
+  "inputs_sha256": {
+    "receptor.pdbqt": "f13cf3b36f61d87c3b58983e0b8ecf1c3456a685eb86dfe9ccfb139c7bdc2586",
+    "ligand.pdbqt": "15fb35648d8c18c70317842f3a0631b73a19429c710a037ab07310084d579bb8",
+    "engine-receptor.pdbqt": "9dba4ce3ea092e708c5c6b852ba97cde2e99f15c522bae45c56e17d7cf8d501b",
+    "engine-ligand.pdbqt": "5b60ec82b4d8e00d0be293207b5b35f253903a9461e85f139f8d3d32c9806c82"
+  },
+  "engine_output": "validation/oriented/engine-poses.pdbqt",
+  "engine_output_sha256": "84ae35d5343a9330dfd8e8cc6af70fcfe49b573ea2873f20fcc5b26728f81232",
+  "scene_output": "validation/oriented/poses.pdbqt",
+  "scene_output_sha256": "8425f81ef577d28e14dd19465709a9908f98d3043b9088ace596507edd0bfa35",
+  "parameters": {
+    "exhaustiveness": 1,
+    "num_modes": 3,
+    "energy_range": 10,
+    "seed": 42,
+    "cpu": 1
+  },
+  "note": "Checks real engine execution and coordinate recovery. Does not assert score invariance under rotation or biological accuracy."
+}

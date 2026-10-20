@@ -1,0 +1,238 @@
+0|All files (*)|Alle Dateien (*)|Tous les fichiers (*)|所有文件 (*)|すべてのファイル (*)|Todos os arquivos (*)
+1|Result: {p0} · {p1}|Ergebnis: {p0} · {p1}|Résultat : {p0} · {p1}|结果：{p0} · {p1}|結果：{p0} · {p1}|Resultado: {p0} · {p1}
+2|Ready. Configure the engine and prepared files.|Bereit. Engine und vorbereitete Dateien konfigurieren.|Prêt. Configurez le moteur et les fichiers préparés.|就绪。请设置引擎和已制备的文件。|準備完了。エンジンと前処理済みファイルを設定してください。|Pronto. Configure o motor e os arquivos preparados.
+3|Molecular model|Molekülmodell|Modèle moléculaire|分子模型|分子モデル|Modelo molecular
+4|Check protonation, waters, cofactors and chemical states. Then generate PDBQT using your AutoDockTools or Meeko protocol. Dock Prep and PDB/MOL2 export precede that preparation.|Protonierung, Wasser, Cofaktoren und chemische Zustände prüfen. Anschließend PDBQT mit Ihrem AutoDockTools- oder Meeko-Protokoll erzeugen. Dock Prep und PDB/MOL2-Export gehen dieser Vorbereitung voraus.|Vérifiez la protonation, les eaux, les cofacteurs et les états chimiques. Générez ensuite les PDBQT avec votre protocole AutoDockTools ou Meeko. Dock Prep et l’export PDB/MOL2 précèdent cette préparation.|请检查质子化状态、水分子、辅因子和化学状态，再按您的 AutoDockTools 或 Meeko 流程生成 PDBQT。Dock Prep 和 PDB/MOL2 导出是此前的准备步骤。|プロトン化、水分子、補因子、化学状態を確認し、AutoDockTools または Meeko の手順で PDBQT を作成してください。Dock Prep と PDB/MOL2 の書き出しは、その前段階です。|Verifique protonação, águas, cofatores e estados químicos. Depois gere PDBQT com seu protocolo AutoDockTools ou Meeko. Dock Prep e a exportação PDB/MOL2 são etapas anteriores a essa preparação.
+5|Selection padding (Å)|Rand um Auswahl (Å)|Marge de sélection (Å)|选择区域边距 (Å)|選択範囲の余白 (Å)|Margem da seleção (Å)
+6|Preparation and box|Vorbereitung und Suchbox|Préparation et boîte|制备与搜索框|前処理と探索ボックス|Preparação e caixa
+7|Engine|Engine|Moteur|引擎|エンジン|Motor
+8|Executable|Ausführbare Datei|Exécutable|可执行文件|実行ファイル|Executável
+9|Receptor PDBQT|Rezeptor-PDBQT|Récepteur PDBQT|受体 PDBQT|受容体 PDBQT|Receptor PDBQT
+10|Ligand PDBQT|Liganden-PDBQT|Ligand PDBQT|配体 PDBQT|リガンド PDBQT|Ligante PDBQT
+11|Use the same ID for the same ligand across engines|Für denselben Liganden in allen Engines dieselbe ID verwenden|Utilisez le même identifiant pour un même ligand dans tous les moteurs|同一配体在各引擎中请使用相同 ID|同じリガンドには、すべてのエンジンで同じ ID を使用|Use o mesmo ID para o mesmo ligante em todos os motores
+12|Ligand ID|Liganden-ID|Identifiant du ligand|配体 ID|リガンド ID|ID do ligante
+13|E.g. receptor_1 · same orientation and coordinates|Z. B. receptor_1 · gleiche Orientierung und Koordinaten|Ex. receptor_1 · mêmes orientation et coordonnées|例如 receptor_1 · 相同方向和坐标|例：receptor_1 · 同じ向きと座標|Ex.: receptor_1 · mesma orientação e coordenadas
+14|Receptor/frame ID|Rezeptor-/Koordinatensystem-ID|Identifiant récepteur/repère|受体/坐标系 ID|受容体・座標系 ID|ID do receptor/sistema de coordenadas
+15|Save runs in|Läufe speichern unter|Enregistrer les calculs dans|运行结果保存位置|実行結果の保存先|Salvar execuções em
+16|Run docking|Docking starten|Lancer le docking|运行对接|ドッキングを実行|Executar docking
+17|Cancel run|Lauf abbrechen|Annuler le calcul|取消运行|実行を中止|Cancelar execução
+18|Docking|Docking|Docking|分子对接|ドッキング|Docking
+19|External result engine|Engine des externen Ergebnisses|Moteur du résultat externe|外部结果所用引擎|外部結果のエンジン|Motor do resultado externo
+20|Automatic: minimizedAffinity, SCORE, vina_affinity, affinity|Automatisch: minimizedAffinity, SCORE, vina_affinity, affinity|Automatique : minimizedAffinity, SCORE, vina_affinity, affinity|自动：minimizedAffinity、SCORE、vina_affinity、affinity|自動：minimizedAffinity、SCORE、vina_affinity、affinity|Automático: minimizedAffinity, SCORE, vina_affinity, affinity
+21|SDF score field|SDF-Score-Feld|Champ du score SDF|SDF 评分字段|SDF スコアフィールド|Campo de pontuação SDF
+22|Before importing, enter the ligand ID and receptor/frame ID in Docking. Lower scores are assumed to be better. Import each ligand in a separate file.|Vor dem Import Liganden-ID und Rezeptor-/Koordinatensystem-ID unter Docking angeben. Kleinere Scores gelten als besser. Jeden Liganden in einer eigenen Datei importieren.|Avant l’import, renseignez les identifiants du ligand et du récepteur/repère dans Docking. Un score plus faible est considéré comme meilleur. Importez chaque ligand dans un fichier distinct.|导入前，请在分子对接页填写配体 ID 和受体/坐标系 ID。默认评分越低越好。每个文件只应包含一个配体。|読み込む前に、ドッキングでリガンド ID と受容体・座標系 ID を入力してください。スコアは低いほど良いと扱います。リガンドごとに別のファイルを使用してください。|Antes de importar, informe o ID do ligante e do receptor/sistema de coordenadas em Docking. Pontuações menores são consideradas melhores. Importe cada ligante em um arquivo separado.
+23|Results|Ergebnisse|Résultats|结果|結果|Resultados
+24|Consensus|Konsens|Consensus|共识分析|コンセンサス|Consenso
+25|Heavy-atom RMSD|Schweratom-RMSD|RMSD des atomes lourds|重原子 RMSD|重原子 RMSD|RMSD de átomos pesados
+26|RMSD threshold (Å)|RMSD-Grenzwert (Å)|Seuil RMSD (Å)|RMSD 阈值 (Å)|RMSD 閾値 (Å)|Limiar de RMSD (Å)
+27|Pose pairs are compared across runs without superimposing the ligand. Lower consensus is better. Symmetry correction requires SDF bonds; PDBQT uses atom identity and order.|Posenpaare werden zwischen Läufen verglichen, ohne den Liganden zu überlagern. Kleinere Konsenswerte sind besser. Symmetriekorrektur benötigt SDF-Bindungen; PDBQT verwendet Atomidentität und Reihenfolge.|Les paires de poses sont comparées entre calculs sans superposer le ligand. Un consensus plus faible est meilleur. La correction de symétrie exige les liaisons SDF ; PDBQT utilise l’identité et l’ordre des atomes.|跨运行比较构象对时不会对配体进行叠合。共识值越低越好。对称性校正需要 SDF 中的键；PDBQT 使用原子标识和顺序。|リガンドを重ね合わせず、実行間のポーズ対を比較します。コンセンサス値は低いほど良好です。対称性補正には SDF の結合情報が必要です。PDBQT では原子の識別情報と順序を使用します。|Os pares de poses são comparados entre execuções sem sobrepor o ligante. Um consenso menor é melhor. A correção por simetria exige ligações SDF; PDBQT usa identidade e ordem dos átomos.
+28|Calculate consensus|Konsens berechnen|Calculer le consensus|计算共识|コンセンサスを計算|Calcular consenso
+29|Cancel analysis|Analyse abbrechen|Annuler l’analyse|取消分析|解析を中止|Cancelar análise
+30|No analysis calculated.|Keine Analyse berechnet.|Aucune analyse calculée.|尚未计算分析。|解析はまだ実行されていません。|Nenhuma análise calculada.
+31|Export receptor|Rezeptor exportieren|Exporter le récepteur|导出受体|受容体を書き出す|Exportar receptor
+32|Export selection|Auswahl exportieren|Exporter la sélection|导出所选内容|選択範囲を書き出す|Exportar seleção
+33|Import results|Ergebnisse importieren|Importer des résultats|导入结果|結果を読み込む|Importar resultados
+34|Poses (*.pdbqt *.sdf *.sd)|Posen (*.pdbqt *.sdf *.sd)|Poses (*.pdbqt *.sdf *.sd)|构象 (*.pdbqt *.sdf *.sd)|ポーズ (*.pdbqt *.sdf *.sd)|Poses (*.pdbqt *.sdf *.sd)
+35|Restore run|Lauf wiederherstellen|Restaurer un calcul|恢复运行结果|実行結果を復元|Restaurar execução
+36|Manifest (run.json)|Manifest (run.json)|Manifeste (run.json)|清单 (run.json)|マニフェスト (run.json)|Manifesto (run.json)
+37|Tables updated. Run files remain on disk.|Tabellen aktualisiert. Laufdateien bleiben auf dem Datenträger.|Tableaux actualisés. Les fichiers des calculs restent sur le disque.|表格已更新。运行文件仍保留在磁盘上。|表を更新しました。実行ファイルはディスクに保持されます。|Tabelas atualizadas. Os arquivos das execuções permanecem no disco.
+38|Calculating consensus…|Konsens wird berechnet…|Calcul du consensus…|正在计算共识…|コンセンサスを計算中…|Calculando consenso…
+39|Consensus: {p0} pairs meet the criterion. Lower scores are better.|Konsens: {p0} Paare erfüllen das Kriterium. Kleinere Scores sind besser.|Consensus : {p0} paires satisfont le critère. Les scores plus faibles sont meilleurs.|共识：{p0} 对符合条件。评分越低越好。|コンセンサス：{p0} 対が条件を満たします。スコアは低いほど良好です。|Consenso: {p0} pares atendem ao critério. Pontuações menores são melhores.
+40|Export results|Ergebnisse exportieren|Exporter les résultats|导出结果|結果を書き出す|Exportar resultados
+41|Export consensus|Konsens exportieren|Exporter le consensus|导出共识分析|コンセンサスを書き出す|Exportar consenso
+42|Browse…|Durchsuchen…|Parcourir…|浏览…|参照…|Procurar…
+43|Prepare model with Dock Prep…|Modell mit Dock Prep vorbereiten…|Préparer le modèle avec Dock Prep…|使用 Dock Prep 制备模型…|Dock Prep でモデルを前処理…|Preparar modelo com Dock Prep…
+44|Export model as PDB…|Modell als PDB exportieren…|Exporter le modèle en PDB…|将模型导出为 PDB…|モデルを PDB で書き出す…|Exportar modelo como PDB…
+45|Export selected ligand as MOL2…|Ausgewählten Liganden als MOL2 exportieren…|Exporter le ligand sélectionné en MOL2…|将所选配体导出为 MOL2…|選択したリガンドを MOL2 で書き出す…|Exportar ligante selecionado como MOL2…
+46|Center (Å)|Mittelpunkt (Å)|Centre (Å)|中心 (Å)|中心 (Å)|Centro (Å)
+47|Size (Å)|Größe (Å)|Dimensions (Å)|尺寸 (Å)|サイズ (Å)|Tamanho (Å)
+48|Define box from selected atoms|Box aus ausgewählten Atomen definieren|Définir la boîte à partir des atomes sélectionnés|根据所选原子定义搜索框|選択した原子からボックスを定義|Definir caixa a partir dos átomos selecionados
+49|Show box|Box anzeigen|Afficher la boîte|显示搜索框|ボックスを表示|Mostrar caixa
+50|Prepared receptor (*.pdbqt)|Vorbereiteter Rezeptor (*.pdbqt)|Récepteur préparé (*.pdbqt)|已制备受体 (*.pdbqt)|前処理済み受容体 (*.pdbqt)|Receptor preparado (*.pdbqt)
+51|Prepared ligand (*.pdbqt)|Vorbereiteter Ligand (*.pdbqt)|Ligand préparé (*.pdbqt)|已制备配体 (*.pdbqt)|前処理済みリガンド (*.pdbqt)|Ligante preparado (*.pdbqt)
+52|Exhaustiveness|Suchintensität|Exhaustivité|搜索强度|探索の徹底度|Exaustividade
+53|Maximum poses|Maximale Posenanzahl|Nombre maximal de poses|最大构象数|最大ポーズ数|Número máximo de poses
+54|Energy range (kcal/mol)|Energiebereich (kcal/mol)|Plage énergétique (kcal/mol)|能量范围 (kcal/mol)|エネルギー範囲 (kcal/mol)|Faixa de energia (kcal/mol)
+55|Seed|Zufallsstartwert|Graine aléatoire|随机种子|乱数シード|Semente
+56|Scoring function|Bewertungsfunktion|Fonction de score|评分函数|スコア関数|Função de pontuação
+57|Import PDBQT / SDF poses…|PDBQT-/SDF-Posen importieren…|Importer des poses PDBQT / SDF…|导入 PDBQT / SDF 构象…|PDBQT / SDF ポーズを読み込む…|Importar poses PDBQT / SDF…
+58|Restore run.json run…|Lauf aus run.json wiederherstellen…|Restaurer un calcul run.json…|从 run.json 恢复运行结果…|run.json から実行結果を復元…|Restaurar execução run.json…
+59|Run|Lauf|Calcul|运行|実行|Execução
+60|Ligand|Ligand|Ligand|配体|リガンド|Ligante
+61|Pose|Pose|Pose|构象|ポーズ|Pose
+62|Score|Score|Score|评分|スコア|Pontuação
+63|Show selected pose|Ausgewählte Pose anzeigen|Afficher la pose sélectionnée|显示所选构象|選択したポーズを表示|Mostrar pose selecionada
+64|Export results CSV…|Ergebnisse als CSV exportieren…|Exporter les résultats en CSV…|将结果导出为 CSV…|結果を CSV で書き出す…|Exportar resultados CSV…
+65|Select runs for the same ligand and receptor/frame:|Läufe für denselben Liganden und Rezeptor/dasselbe Koordinatensystem auswählen:|Sélectionnez les calculs du même ligand et du même récepteur/repère :|请选择相同配体和受体/坐标系的运行：|同じリガンドと受容体・座標系の実行を選択：|Selecione execuções do mesmo ligante e receptor/sistema de coordenadas:
+66|Remove selected runs from the table|Ausgewählte Läufe aus der Tabelle entfernen|Retirer les calculs sélectionnés du tableau|从表格移除所选运行|選択した実行を表から除く|Remover execuções selecionadas da tabela
+67|Rank by Rank|Rangmittel (RbR)|Moyenne des rangs (RbR)|平均排名 (RbR)|順位の平均 (RbR)|Média dos rankings (RbR)
+68|Average of Auto-Scaled Scores|Mittelwert autoskalierter Scores|Moyenne des scores normalisés|自动缩放评分的平均值|自動スケーリングしたスコアの平均|Média das pontuações autoescaladas
+69|Z-scores|Z-Scores|Scores Z|Z 分数|Z スコア|Pontuações Z
+70|Atom identity and order|Atomidentität und Reihenfolge|Identité et ordre des atomes|原子标识与顺序|原子の識別情報と順序|Identidade e ordem dos átomos
+71|Symmetry-corrected (SDF)|Symmetriekorrigiert (SDF)|Corrigé par symétrie (SDF)|对称性校正 (SDF)|対称性補正 (SDF)|Corrigido por simetria (SDF)
+72|No spatial filter|Ohne räumlichen Filter|Sans filtre spatial|不使用空间筛选|空間フィルターなし|Sem filtro espacial
+73|Run A|Lauf A|Calcul A|运行 A|実行 A|Execução A
+74|Pose A|Pose A|Pose A|构象 A|ポーズ A|Pose A
+75|Run B|Lauf B|Calcul B|运行 B|実行 B|Execução B
+76|Pose B|Pose B|Pose B|构象 B|ポーズ B|Pose B
+77|Show selected pair|Ausgewähltes Paar anzeigen|Afficher la paire sélectionnée|显示所选构象对|選択した対を表示|Mostrar par selecionado
+78|Export consensus CSV…|Konsens als CSV exportieren…|Exporter le consensus en CSV…|将共识分析导出为 CSV…|コンセンサスを CSV で書き出す…|Exportar consenso CSV…
+79|A run is already in progress.|Ein Lauf ist bereits aktiv.|Un calcul est déjà en cours.|已有运行正在进行。|実行がすでに進行中です。|Já existe uma execução em andamento.
+80|Select an output folder for the runs.|Einen Ausgabeordner für die Läufe auswählen.|Sélectionnez un dossier de sortie pour les calculs.|请选择运行结果的输出文件夹。|実行結果の出力フォルダーを選択してください。|Selecione uma pasta de saída para as execuções.
+81|Cancelling run…|Lauf wird abgebrochen…|Annulation du calcul…|正在取消运行…|実行を中止中…|Cancelando execução…
+82|This run is already loaded.|Dieser Lauf ist bereits geladen.|Ce calcul est déjà chargé.|该运行已加载。|この実行結果はすでに読み込まれています。|Esta execução já está carregada.
+83|Enter the ligand ID and receptor/frame ID in Docking before importing.|Vor dem Import Liganden-ID und Rezeptor-/Koordinatensystem-ID unter Docking eingeben.|Renseignez les identifiants du ligand et du récepteur/repère dans Docking avant l’import.|导入前请在分子对接页填写配体 ID 和受体/坐标系 ID。|読み込む前にドッキングでリガンド ID と受容体・座標系 ID を入力してください。|Informe o ID do ligante e do receptor/sistema de coordenadas em Docking antes de importar.
+84|Wait for the analysis to finish or cancel it before removing runs.|Vor dem Entfernen von Läufen die Analyse beenden lassen oder abbrechen.|Attendez la fin de l’analyse ou annulez-la avant de retirer des calculs.|移除运行前，请等待分析完成或将其取消。|実行を除く前に、解析の完了を待つか中止してください。|Aguarde o fim da análise ou cancele-a antes de remover execuções.
+85|Select a pose in Results.|Eine Pose unter Ergebnisse auswählen.|Sélectionnez une pose dans Résultats.|请在结果页选择一个构象。|結果でポーズを選択してください。|Selecione uma pose em Resultados.
+86|A consensus analysis is already in progress.|Eine Konsensanalyse ist bereits aktiv.|Une analyse de consensus est déjà en cours.|已有共识分析正在进行。|コンセンサス解析がすでに進行中です。|Já existe uma análise de consenso em andamento.
+87|Analysis not completed.|Analyse nicht abgeschlossen.|Analyse non terminée.|分析未完成。|解析は完了していません。|Análise não concluída.
+88|Select a pose pair in Consensus.|Ein Posenpaar unter Konsens auswählen.|Sélectionnez une paire de poses dans Consensus.|请在共识分析页选择一个构象对。|コンセンサスでポーズ対を選択してください。|Selecione um par de poses em Consenso.
+89|First calculate a consensus with valid pairs.|Zuerst einen Konsens mit gültigen Paaren berechnen.|Calculez d’abord un consensus contenant des paires valides.|请先计算包含有效构象对的共识结果。|まず有効な対を含むコンセンサスを計算してください。|Primeiro calcule um consenso com pares válidos.
+90|Select folder|Ordner auswählen|Sélectionner un dossier|选择文件夹|フォルダーを選択|Selecionar pasta
+91|Select file|Datei auswählen|Sélectionner un fichier|选择文件|ファイルを選択|Selecionar arquivo
+92|Run cancelled. Inputs and log were retained.|Lauf abgebrochen. Eingaben und Protokoll bleiben erhalten.|Calcul annulé. Les entrées et le journal sont conservés.|运行已取消。输入文件和日志已保留。|実行を中止しました。入力ファイルとログは保持されています。|Execução cancelada. Entradas e registro foram preservados.
+93|Run failed. Check the engine log.|Lauf fehlgeschlagen. Engine-Protokoll prüfen.|Le calcul a échoué. Consultez le journal du moteur.|运行失败。请检查引擎日志。|実行に失敗しました。エンジンのログを確認してください。|A execução falhou. Verifique o registro do motor.
+94|Select a folder in Docking to retain the imported result.|Unter Docking einen Ordner zum Aufbewahren des Imports auswählen.|Sélectionnez un dossier dans Docking pour conserver le résultat importé.|请在分子对接页选择用于保存导入结果的文件夹。|読み込み結果を保存するフォルダーをドッキングで選択してください。|Selecione uma pasta em Docking para preservar o resultado importado.
+95|CHIPIX · box|CHIPIX · Suchbox|CHIPIX · boîte|CHIPIX · 搜索框|CHIPIX · ボックス|CHIPIX · caixa
+96|Select an open molecular model.|Ein geöffnetes Molekülmodell auswählen.|Sélectionnez un modèle moléculaire ouvert.|请选择一个已打开的分子模型。|開いている分子モデルを選択してください。|Selecione um modelo molecular aberto.
+97|Select the atoms of a single ligand.|Die Atome eines einzelnen Liganden auswählen.|Sélectionnez les atomes d’un seul ligand.|请选择单个配体的原子。|単一のリガンドの原子を選択してください。|Selecione os átomos de um único ligante.
+98|Select a ligand from a single model.|Einen Liganden aus einem einzigen Modell auswählen.|Sélectionnez un ligand provenant d’un seul modèle.|请选择来自同一模型的配体。|単一のモデルからリガンドを選択してください。|Selecione um ligante de um único modelo.
+99|The box requires three coordinates and three dimensions.|Die Box benötigt drei Koordinaten und drei Abmessungen.|La boîte nécessite trois coordonnées et trois dimensions.|搜索框需要三个坐标和三个尺寸。|ボックスには 3 つの座標と 3 つの寸法が必要です。|A caixa exige três coordenadas e três dimensões.
+100|The box contains non-finite values.|Die Box enthält nicht endliche Werte.|La boîte contient des valeurs non finies.|搜索框包含非有限数值。|ボックスに非有限値が含まれています。|A caixa contém valores não finitos.
+101|Box dimensions must be positive (Å).|Die Boxabmessungen müssen positiv sein (Å).|Les dimensions de la boîte doivent être positives (Å).|搜索框尺寸必须为正数 (Å)。|ボックスの寸法は正の値である必要があります (Å)。|As dimensões da caixa devem ser positivas (Å).
+102|Select atoms and use positive padding.|Atome auswählen und einen positiven Rand verwenden.|Sélectionnez des atomes et utilisez une marge positive.|请选择原子并使用正值边距。|原子を選択し、正の余白を指定してください。|Selecione átomos e use uma margem positiva.
+103|Invalid selection coordinates.|Ungültige Auswahlkoordinaten.|Coordonnées de sélection invalides.|所选内容的坐标无效。|選択範囲の座標が無効です。|Coordenadas da seleção inválidas.
+104|Supported format: PDBQT or SDF V2000.|Unterstütztes Format: PDBQT oder SDF V2000.|Format pris en charge : PDBQT ou SDF V2000.|支持的格式：PDBQT 或 SDF V2000。|対応形式：PDBQT または SDF V2000。|Formato aceito: PDBQT ou SDF V2000.
+105|A non-finite value was found in the molecular file.|In der Moleküldatei wurde ein nicht endlicher Wert gefunden.|Une valeur non finie a été trouvée dans le fichier moléculaire.|分子文件中发现非有限数值。|分子ファイルに非有限値が見つかりました。|Foi encontrado um valor não finito no arquivo molecular.
+106|ENDMDL is missing in the PDBQT result.|ENDMDL fehlt im PDBQT-Ergebnis.|ENDMDL est absent du résultat PDBQT.|PDBQT 结果缺少 ENDMDL。|PDBQT 結果に ENDMDL がありません。|Falta ENDMDL no resultado PDBQT.
+107|No PDBQT poses were found.|Keine PDBQT-Posen gefunden.|Aucune pose PDBQT trouvée.|未找到 PDBQT 构象。|PDBQT ポーズが見つかりません。|Nenhuma pose PDBQT foi encontrada.
+108|No SDF poses were found.|Keine SDF-Posen gefunden.|Aucune pose SDF trouvée.|未找到 SDF 构象。|SDF ポーズが見つかりません。|Nenhuma pose SDF foi encontrada.
+109|Pose {p0}: atoms or REMARK VINA RESULT are missing. For ADFR use SDF with its score field.|Pose {p0}: Atome oder REMARK VINA RESULT fehlen. Für ADFR SDF mit dem zugehörigen Score-Feld verwenden.|Pose {p0} : atomes ou REMARK VINA RESULT manquants. Pour ADFR, utilisez SDF avec son champ de score.|构象 {p0}：缺少原子或 REMARK VINA RESULT。对于 ADFR，请使用带评分字段的 SDF。|ポーズ {p0}：原子または REMARK VINA RESULT がありません。ADFR にはスコアフィールド付き SDF を使用してください。|Pose {p0}: faltam átomos ou REMARK VINA RESULT. Para ADFR use SDF com seu campo de pontuação.
+110|SDF V2000 is required; convert V3000 while preserving bonds and scores.|SDF V2000 erforderlich; V3000 unter Erhalt von Bindungen und Scores konvertieren.|SDF V2000 est requis ; convertissez V3000 en conservant les liaisons et les scores.|需要 SDF V2000；请在保留键和评分的前提下转换 V3000。|SDF V2000 が必要です。結合とスコアを保持して V3000 を変換してください。|É necessário SDF V2000; converta V3000 preservando ligações e pontuações.
+111|Invalid SDF elements or bonds.|Ungültige SDF-Elemente oder -Bindungen.|Éléments ou liaisons SDF invalides.|SDF 元素或键无效。|SDF の元素または結合が無効です。|Elementos ou ligações SDF inválidos.
+112|M  END is missing in the SDF record.|M  END fehlt im SDF-Datensatz.|M  END est absent de l’enregistrement SDF.|SDF 记录缺少 M  END。|SDF レコードに M  END がありません。|Falta M  END no registro SDF.
+113|Nested or incomplete MODEL blocks.|Verschachtelte oder unvollständige MODEL-Blöcke.|Blocs MODEL imbriqués ou incomplets.|MODEL 块嵌套或不完整。|MODEL ブロックが入れ子になっているか、不完全です。|Blocos MODEL aninhados ou incompletos.
+114|Invalid SDF counts.|Ungültige SDF-Anzahlen.|Comptages SDF invalides.|SDF 计数无效。|SDF の原子数・結合数が無効です。|Contagens SDF inválidas.
+115|Invalid SDF record {p0}: {p1}|Ungültiger SDF-Datensatz {p0}: {p1}|Enregistrement SDF {p0} invalide : {p1}|SDF 记录 {p0} 无效：{p1}|SDF レコード {p0} が無効です：{p1}|Registro SDF {p0} inválido: {p1}
+116|Pose {p0}: REMARK VINA RESULT contains no score.|Pose {p0}: REMARK VINA RESULT enthält keinen Score.|Pose {p0} : REMARK VINA RESULT ne contient aucun score.|构象 {p0}：REMARK VINA RESULT 不包含评分。|ポーズ {p0}：REMARK VINA RESULT にスコアがありません。|Pose {p0}: REMARK VINA RESULT não contém pontuação.
+117|Unsupported AutoDock type: {p0}. Use SDF to analyse this molecule.|Nicht unterstützter AutoDock-Typ: {p0}. Dieses Molekül mit SDF analysieren.|Type AutoDock non pris en charge : {p0}. Utilisez SDF pour analyser cette molécule.|不支持的 AutoDock 类型：{p0}。请使用 SDF 分析该分子。|未対応の AutoDock タイプ：{p0}。この分子は SDF で解析してください。|Tipo AutoDock não aceito: {p0}. Use SDF para analisar esta molécula.
+118|No executable with execute permission was found: {p0}|Keine ausführbare Datei mit Ausführungsrechten gefunden: {p0}|Aucun exécutable avec permission d’exécution trouvé : {p0}|未找到具有执行权限的可执行文件：{p0}|実行権限のある実行ファイルが見つかりません：{p0}|Não foi encontrado um executável com permissão de execução: {p0}
+119|The engine exited with code {p0}. Check {p1}|Die Engine wurde mit Code {p0} beendet. {p1} prüfen|Le moteur s’est terminé avec le code {p0}. Consultez {p1}|引擎以代码 {p0} 退出。请检查 {p1}|エンジンはコード {p0} で終了しました。{p1} を確認してください|O motor terminou com código {p0}. Verifique {p1}
+120|A completed CHIPIX 1.0.0 run.json is required.|Eine abgeschlossene run.json von CHIPIX 1.0.0 ist erforderlich.|Un fichier run.json terminé de CHIPIX 1.0.0 est requis.|需要已完成的 CHIPIX 1.0.0 run.json。|完了済みの CHIPIX 1.0.0 run.json が必要です。|É necessário um run.json concluído do CHIPIX 1.0.0.
+121|The output must be inside the run folder.|Die Ausgabe muss sich im Laufordner befinden.|La sortie doit se trouver dans le dossier du calcul.|输出文件必须位于运行文件夹内。|出力は実行フォルダー内にある必要があります。|A saída deve estar dentro da pasta da execução.
+122|The result was modified: its SHA-256 does not match run.json.|Das Ergebnis wurde verändert: Sein SHA-256 stimmt nicht mit run.json überein.|Le résultat a été modifié : son SHA-256 ne correspond pas à run.json.|结果已被修改：其 SHA-256 与 run.json 不一致。|結果が変更されています。SHA-256 が run.json と一致しません。|O resultado foi modificado: seu SHA-256 não corresponde ao run.json.
+123|Enter the ligand ID and receptor/frame ID for import.|Für den Import Liganden-ID und Rezeptor-/Koordinatensystem-ID angeben.|Indiquez les identifiants du ligand et du récepteur/repère pour l’import.|请为导入填写配体 ID 和受体/坐标系 ID。|読み込み用のリガンド ID と受容体・座標系 ID を入力してください。|Informe o ID do ligante e do receptor/sistema de coordenadas para importar.
+124|Supported execution engines: Vina and Smina.|Unterstützte Ausführungs-Engines: Vina und Smina.|Moteurs d’exécution pris en charge : Vina et Smina.|支持运行的引擎：Vina 和 Smina。|実行可能なエンジン：Vina と Smina。|Motores de execução aceitos: Vina e Smina.
+125|Enter the ligand ID and receptor/frame ID.|Liganden-ID und Rezeptor-/Koordinatensystem-ID angeben.|Indiquez les identifiants du ligand et du récepteur/repère.|请填写配体 ID 和受体/坐标系 ID。|リガンド ID と受容体・座標系 ID を入力してください。|Informe o ID do ligante e do receptor/sistema de coordenadas.
+126|Vinardo is enabled only for Smina in this version.|Vinardo ist in dieser Version nur für Smina aktiviert.|Vinardo est activé uniquement pour Smina dans cette version.|此版本中 Vinardo 仅适用于 Smina。|このバージョンでは Vinardo は Smina でのみ使用できます。|Vinardo está habilitado apenas para Smina nesta versão.
+127|Exhaustiveness, pose count and CPU must be positive integers.|Suchintensität, Posenanzahl und CPU müssen positive ganze Zahlen sein.|L’exhaustivité, le nombre de poses et le nombre de CPU doivent être des entiers positifs.|搜索强度、构象数和 CPU 数必须为正整数。|探索の徹底度、ポーズ数、CPU 数は正の整数である必要があります。|Exaustividade, número de poses e CPU devem ser inteiros positivos.
+128|Use a seed between 1 and 2147483647.|Einen Zufallsstartwert zwischen 1 und 2147483647 verwenden.|Utilisez une graine entre 1 et 2147483647.|请使用 1 到 2147483647 之间的随机种子。|1 から 2147483647 の範囲の乱数シードを使用してください。|Use uma semente entre 1 e 2147483647.
+129|The energy range must be finite and positive.|Der Energiebereich muss endlich und positiv sein.|La plage énergétique doit être finie et positive.|能量范围必须为有限正数。|エネルギー範囲は有限の正の値である必要があります。|A faixa de energia deve ser finita e positiva.
+130|The engine output is invalid: {p0}|Die Engine-Ausgabe ist ungültig: {p0}|La sortie du moteur est invalide : {p0}|引擎输出无效：{p0}|エンジンの出力が無効です：{p0}|A saída do motor é inválida: {p0}
+131|Receptor and ligand must be prepared, non-empty PDBQT files.|Rezeptor und Ligand müssen vorbereitete, nicht leere PDBQT-Dateien sein.|Le récepteur et le ligand doivent être des fichiers PDBQT préparés et non vides.|受体和配体必须是已制备且非空的 PDBQT 文件。|受容体とリガンドには、前処理済みの空でない PDBQT ファイルが必要です。|Receptor e ligante devem ser arquivos PDBQT preparados e não vazios.
+132|Unknown consensus method: {p0}|Unbekannte Konsensmethode: {p0}|Méthode de consensus inconnue : {p0}|未知共识方法：{p0}|不明なコンセンサス手法：{p0}|Método de consenso desconhecido: {p0}
+133|The poses do not have the same number of heavy atoms.|Die Posen haben nicht dieselbe Anzahl an Schweratomen.|Les poses n’ont pas le même nombre d’atomes lourds.|构象的重原子数不相同。|ポーズ間で重原子数が一致しません。|As poses não têm o mesmo número de átomos pesados.
+134|Use SDF and symmetry-corrected RMSD to compare different formats.|Zum Vergleich unterschiedlicher Formate SDF und symmetriekorrigiertes RMSD verwenden.|Pour comparer des formats différents, utilisez SDF et le RMSD corrigé par symétrie.|比较不同格式时，请使用 SDF 和对称性校正 RMSD。|異なる形式を比較するには、SDF と対称性補正 RMSD を使用してください。|Para comparar formatos diferentes, use SDF e RMSD corrigido por simetria.
+135|Atom identity/order differs; use SDF and symmetry-corrected RMSD.|Atomidentität/Reihenfolge abweichend; SDF und symmetriekorrigiertes RMSD verwenden.|L’identité ou l’ordre des atomes diffère ; utilisez SDF et le RMSD corrigé par symétrie.|原子标识或顺序不同；请使用 SDF 和对称性校正 RMSD。|原子の識別情報または順序が異なります。SDF と対称性補正 RMSD を使用してください。|A identidade/ordem dos átomos difere; use SDF e RMSD corrigido por simetria.
+136|Symmetry-corrected RMSD requires SDF with explicit bonds.|Symmetriekorrigiertes RMSD erfordert SDF mit expliziten Bindungen.|Le RMSD corrigé par symétrie exige un SDF avec des liaisons explicites.|对称性校正 RMSD 需要含显式键的 SDF。|対称性補正 RMSD には、明示的な結合を含む SDF が必要です。|O RMSD corrigido por simetria exige SDF com ligações explícitas.
+137|The poses have different molecular connectivity.|Die Posen haben unterschiedliche molekulare Konnektivität.|Les poses présentent des connectivités moléculaires différentes.|构象的分子连接关系不同。|ポーズ間で分子の結合関係が異なります。|As poses têm conectividade molecular diferente.
+138|No connectivity correspondence exists between the poses.|Keine Konnektivitätszuordnung zwischen den Posen vorhanden.|Aucune correspondance de connectivité n’existe entre les poses.|构象之间不存在连接关系对应。|ポーズ間で結合関係の対応が見つかりません。|Não existe correspondência de conectividade entre as poses.
+139|The run contains invalid scores.|Der Lauf enthält ungültige Scores.|Le calcul contient des scores invalides.|运行包含无效评分。|実行結果に無効なスコアが含まれています。|A execução contém pontuações inválidas.
+140|Select at least two runs with unique identifiers.|Mindestens zwei Läufe mit eindeutigen Kennungen auswählen.|Sélectionnez au moins deux calculs avec des identifiants uniques.|请选择至少两个具有唯一标识的运行。|一意の識別子を持つ実行を少なくとも 2 つ選択してください。|Selecione pelo menos duas execuções com identificadores únicos.
+141|Unknown RMSD mode.|Unbekannter RMSD-Modus.|Mode RMSD inconnu.|未知 RMSD 模式。|不明な RMSD モードです。|Modo RMSD desconhecido.
+142|The RMSD threshold must be finite and non-negative.|Der RMSD-Grenzwert muss endlich und nicht negativ sein.|Le seuil RMSD doit être fini et non négatif.|RMSD 阈值必须为有限非负数。|RMSD 閾値は有限の非負値である必要があります。|O limiar de RMSD deve ser finito e não negativo.
+143|Pose consensus requires the same ligand ID in all runs.|Posenkonsens erfordert dieselbe Liganden-ID in allen Läufen.|Le consensus de poses exige le même identifiant de ligand dans tous les calculs.|构象共识要求所有运行使用相同的配体 ID。|ポーズのコンセンサスには、すべての実行で同じリガンド ID が必要です。|O consenso de poses exige o mesmo ID de ligante em todas as execuções.
+144|Runs must share the same receptor/coordinate-frame ID.|Läufe müssen dieselbe Rezeptor-/Koordinatensystem-ID haben.|Les calculs doivent partager le même identifiant de récepteur/repère.|各运行必须使用相同的受体/坐标系 ID。|各実行は同じ受容体・座標系 ID を共有する必要があります。|As execuções devem compartilhar o mesmo ID de receptor/sistema de coordenadas.
+145|Too many pose pairs for interactive analysis.|Zu viele Posenpaare für eine interaktive Analyse.|Trop de paires de poses pour une analyse interactive.|构象对数量过多，无法进行交互式分析。|対話的な解析にはポーズ対の数が多すぎます。|Há pares de poses demais para uma análise interativa.
+146|Analysis cancelled.|Analyse abgebrochen.|Analyse annulée.|分析已取消。|解析を中止しました。|Análise cancelada.
+147|Symmetry exceeds the exact-search limit; reduce the analysis size.|Die Symmetrie überschreitet das Limit der exakten Suche; Analyse verkleinern.|La symétrie dépasse la limite de recherche exacte ; réduisez la taille de l’analyse.|对称性搜索超过精确搜索限制；请缩小分析规模。|対称性の探索が厳密探索の上限を超えました。解析規模を小さくしてください。|A simetria excede o limite da busca exata; reduza o tamanho da análise.
+148|{p0}: AASS is undefined for constant scores; use Rank by Rank.|{p0}: AASS ist bei konstanten Scores nicht definiert; Rangmittel verwenden.|{p0} : AASS n’est pas défini pour des scores constants ; utilisez la moyenne des rangs.|{p0}：评分恒定时 AASS 无定义；请使用平均排名。|{p0}：スコアが一定の場合、AASS は定義されません。順位の平均を使用してください。|{p0}: AASS não é definido para pontuações constantes; use a média dos rankings.
+149|{p0}: Z-score is undefined for constant scores; use Rank by Rank.|{p0}: Z-Score ist bei konstanten Scores nicht definiert; Rangmittel verwenden.|{p0} : le score Z n’est pas défini pour des scores constants ; utilisez la moyenne des rangs.|{p0}：评分恒定时 Z 分数无定义；请使用平均排名。|{p0}：スコアが一定の場合、Z スコアは定義されません。順位の平均を使用してください。|{p0}: o Z-score não é definido para pontuações constantes; use a média dos rankings.
+150|Language|Sprache|Langue|语言|言語|Idioma
+151|Running {p0}…|{p0} wird ausgeführt…|Exécution de {p0}…|正在运行 {p0}…|{p0} を実行中…|Executando {p0}…
+152|{p0}: {p1} poses. Saved in {p2}|{p0}: {p1} Posen. Gespeichert unter {p2}|{p0} : {p1} poses. Enregistrées dans {p2}|{p0}：{p1} 个构象。已保存到 {p2}|{p0}：{p1} ポーズ。保存先：{p2}|{p0}: {p1} poses. Salvo em {p2}
+153|Imported {p0} poses. Copy and run.json in {p1}|{p0} Posen importiert. Kopie und run.json unter {p1}|{p0} poses importées. Copie et run.json dans {p1}|已导入 {p0} 个构象。副本和 run.json 位于 {p1}|{p0} ポーズを読み込みました。コピーと run.json：{p1}|Importadas {p0} poses. Cópia e run.json em {p1}
+154|Other|Andere|Autre|其他|その他|Outro
+
+155|Choose color…|Farbe wählen…|Choisir une couleur…|选择颜色…|色を選択…|Escolher cor…
+156|XYZ rotation (°)|XYZ-Drehung (°)|Rotation XYZ (°)|XYZ 旋转（°）|XYZ 回転（°）|Rotação XYZ (°)
+157|Residues or atom specification|Reste oder Atomspezifikation|Résidus ou spécification d’atomes|残基或原子选择表达式|残基または原子指定|Resíduos ou especificação de átomos
+158|Include entire residues|Vollständige Reste einschließen|Inclure les résidus entiers|包含完整残基|残基全体を含める|Incluir resíduos completos
+159|Fit box to residues|Box an Reste anpassen|Ajuster la boîte aux résidus|根据残基拟合搜索框|残基にボックスを合わせる|Ajustar caixa aos resíduos
+160|Box changes appear live. Spheres are handles; the search boundary remains rectangular.|Box-Änderungen werden sofort angezeigt. Kugeln sind Griffe; die Suchgrenze bleibt rechteckig.|Les changements s’affichent en direct. Les sphères servent de poignées ; la limite de recherche reste rectangulaire.|搜索框更改会实时显示。球体是拖动手柄；搜索边界保持为长方体。|ボックスの変更は即時に表示されます。球体は操作ハンドルで、探索境界は直方体のままです。|As alterações aparecem em tempo real. As esferas são alças; o limite de busca permanece retangular.
+161|Outline|Umriss|Contour|轮廓|輪郭|Contorno
+162|Surface mesh|Oberflächengitter|Maillage de surface|表面网格|表面メッシュ|Malha superficial
+163|Transparent faces|Transparente Flächen|Faces transparentes|透明表面|透明な面|Faces transparentes
+164|Hidden|Ausgeblendet|Masquée|隐藏|非表示|Oculta
+165|Box appearance|Box-Darstellung|Apparence de la boîte|搜索框外观|ボックスの外観|Aparência da caixa
+166|Box color|Box-Farbe|Couleur de la boîte|搜索框颜色|ボックスの色|Cor da caixa
+167|Edge radius (Å)|Kantenradius (Å)|Rayon des arêtes (Å)|边线半径（Å）|辺の半径（Å）|Raio das arestas (Å)
+168|Visual mesh spacing (Å)|Visueller Gitterabstand (Å)|Espacement visuel du maillage (Å)|可视网格间距（Å）|表示メッシュの間隔（Å）|Espaçamento visual da malha (Å)
+169|Face opacity (0–1)|Flächendeckkraft (0–1)|Opacité des faces (0–1)|表面不透明度（0–1）|面の不透明度（0–1）|Opacidade das faces (0–1)
+170|Handle radius (Å)|Griffradius (Å)|Rayon des poignées (Å)|手柄半径（Å）|ハンドルの半径（Å）|Raio das alças (Å)
+171|Rounded joins|Abgerundete Verbindungen|Jonctions arrondies|圆角连接|丸い接合部|Junções arredondadas
+172|Show spherical handles|Kugelförmige Griffe anzeigen|Afficher les poignées sphériques|显示球形手柄|球形ハンドルを表示|Mostrar alças esféricas
+173|Movement step (Å)|Bewegungsschritt (Å)|Pas de déplacement (Å)|移动步长（Å）|移動ステップ（Å）|Passo de movimento (Å)
+174|Shrink 10 %|Um 10 % verkleinern|Réduire de 10 %|缩小 10 %|10 % 縮小|Reduzir 10 %
+175|Expand 10 %|Um 10 % vergrößern|Agrandir de 10 %|放大 10 %|10 % 拡大|Ampliar 10 %
+176|Reset orientation|Ausrichtung zurücksetzen|Réinitialiser l’orientation|重置方向|向きをリセット|Redefinir orientação
+177|Move|Verschieben|Déplacer|移动|移動|Mover
+178|Resize from a sphere|An einer Kugel skalieren|Redimensionner avec une sphère|拖动球体调整大小|球体からサイズ変更|Redimensionar por uma esfera
+179|Rotate|Drehen|Tourner|旋转|回転|Girar
+180|Right mouse button action|Aktion der rechten Maustaste|Action du bouton droit|鼠标右键操作|マウス右ボタンの操作|Ação do botão direito
+181|Edit box with right mouse button|Box mit rechter Maustaste bearbeiten|Modifier la boîte avec le bouton droit|使用鼠标右键编辑搜索框|右ボタンでボックスを編集|Editar caixa com o botão direito
+182|Drag with the right mouse button. Shift moves in depth or rotates Z. To resize, drag a face or corner sphere; the opposite face stays fixed.|Mit der rechten Maustaste ziehen. Umschalt bewegt in die Tiefe oder dreht Z. Zum Skalieren eine Flächen- oder Eckkugel ziehen; die gegenüberliegende Fläche bleibt fest.|Glissez avec le bouton droit. Maj permet le déplacement en profondeur ou la rotation Z. Pour redimensionner, glissez une sphère de face ou de coin ; la face opposée reste fixe.|按住右键拖动。Shift 用于深度移动或绕 Z 轴旋转。调整大小时拖动面或角上的球体，对面保持固定。|右ボタンでドラッグします。Shift で奥行き移動または Z 回転を行います。サイズ変更は面または角の球体をドラッグし、反対側の面は固定されます。|Arraste com o botão direito. Shift move em profundidade ou gira Z. Para redimensionar, arraste uma esfera de face ou canto; a face oposta fica fixa.
+183|The mesh is a visual aid; its spacing does not change the engine discretization.|Das Gitter dient der Darstellung; sein Abstand ändert nicht die Diskretisierung des Docking-Programms.|Le maillage est une aide visuelle ; son espacement ne change pas la discrétisation du moteur.|网格仅用于辅助显示，其间距不会改变对接引擎的离散化设置。|メッシュは表示補助であり、間隔を変えてもエンジンの離散化設定は変わりません。|A malha é uma ajuda visual; seu espaçamento não altera a discretização do motor.
+184|Save customization…|Anpassungen speichern…|Enregistrer la personnalisation…|保存自定义设置…|カスタマイズを保存…|Salvar personalização…
+185|Load customization…|Anpassungen laden…|Charger la personnalisation…|加载自定义设置…|カスタマイズを読み込み…|Carregar personalização…
+186|Current background|Aktueller Hintergrund|Fond actuel|当前背景|現在の背景|Fundo atual
+187|White|Weiß|Blanc|白色|白|Branco
+188|Black|Schwarz|Noir|黑色|黒|Preto
+189|Slate gray|Schiefergrau|Gris ardoise|石板灰|スレートグレー|Cinza ardósia
+190|Custom color|Eigene Farbe|Couleur personnalisée|自定义颜色|カスタム色|Cor personalizada
+191|Background|Hintergrund|Fond|背景|背景|Fundo
+192|Background color|Hintergrundfarbe|Couleur du fond|背景颜色|背景色|Cor de fundo
+193|Current lighting|Aktuelle Beleuchtung|Éclairage actuel|当前光照|現在の照明|Iluminação atual
+194|Simple|Einfach|Simple|简单|シンプル|Simples
+195|Soft|Weich|Doux|柔和|ソフト|Suave
+196|Full with shadows|Vollständig mit Schatten|Complet avec ombres|完整光照和阴影|影付きの全照明|Completa com sombras
+197|Flat|Flach|Plat|平面|フラット|Plana
+198|Default|Standard|Par défaut|默认|既定|Padrão
+199|Lighting|Beleuchtung|Éclairage|光照|照明|Iluminação
+200|Apply background and lighting to view|Hintergrund und Beleuchtung anwenden|Appliquer le fond et l’éclairage à la vue|将背景和光照应用到视图|背景と照明をビューに適用|Aplicar fundo e iluminação à vista
+201|Export temporarily uses these options and then restores the view.|Der Export verwendet diese Optionen vorübergehend und stellt danach die Ansicht wieder her.|L’export utilise temporairement ces options puis restaure la vue.|导出时临时使用这些设置，完成后恢复视图。|書き出し時にこれらの設定を一時適用し、その後ビューを復元します。|A exportação usa estas opções temporariamente e depois restaura a vista.
+202|Width (pixels)|Breite (Pixel)|Largeur (pixels)|宽度（像素）|幅（ピクセル）|Largura (pixels)
+203|Height (pixels)|Höhe (Pixel)|Hauteur (pixels)|高度（像素）|高さ（ピクセル）|Altura (pixels)
+204|Supersampling|Supersampling|Suréchantillonnage|超采样抗锯齿|スーパーサンプリング|Superamostragem
+205|Transparent background (PNG/TIFF)|Transparenter Hintergrund (PNG/TIFF)|Fond transparent (PNG/TIFF)|透明背景（PNG/TIFF）|透明背景（PNG/TIFF）|Fundo transparente (PNG/TIFF)
+206|Include box in image|Box im Bild einschließen|Inclure la boîte dans l’image|图像中包含搜索框|画像にボックスを含める|Incluir caixa na imagem
+207|Include handles in image|Griffe im Bild einschließen|Inclure les poignées dans l’image|图像中包含手柄|画像にハンドルを含める|Incluir alças na imagem
+208|Include distances in image|Abstände im Bild einschließen|Inclure les distances dans l’image|图像中包含距离|画像に距離を含める|Incluir distâncias na imagem
+209|Export 3D image…|3D-Bild exportieren…|Exporter une image 3D…|导出 3D 图像…|3D 画像を書き出し…|Exportar imagem 3D…
+210|Customization and image|Anpassung und Bild|Personnalisation et image|自定义与图像|カスタマイズと画像|Personalização e imagem
+211|Select exactly two atoms in ChimeraX; they may belong to different models. Distances update as models move.|Genau zwei Atome in ChimeraX auswählen; sie dürfen zu verschiedenen Modellen gehören. Abstände werden bei Modellbewegungen aktualisiert.|Sélectionnez exactement deux atomes dans ChimeraX ; ils peuvent appartenir à des modèles différents. Les distances suivent les déplacements des modèles.|在 ChimeraX 中选择恰好两个原子，可来自不同模型。移动模型时距离会自动更新。|ChimeraX で原子をちょうど 2 個選択してください。異なるモデルでも構いません。モデルの移動に応じて距離が更新されます。|Selecione exatamente dois átomos no ChimeraX; podem pertencer a modelos diferentes. As distâncias acompanham o movimento dos modelos.
+212|Distance color|Abstandsfarbe|Couleur des distances|距离颜色|距離の色|Cor das distâncias
+213|Line radius (Å)|Linienradius (Å)|Rayon des lignes (Å)|线半径（Å）|線の半径（Å）|Raio das linhas (Å)
+214|Dashes (0 = solid line)|Striche (0 = durchgezogene Linie)|Tirets (0 = ligne continue)|虚线段数（0 = 实线）|破線数（0 = 実線）|Traços (0 = linha contínua)
+215|Label size|Beschriftungsgröße|Taille des étiquettes|标签大小|ラベルサイズ|Tamanho dos rótulos
+216|Show values in 3D|Werte in 3D anzeigen|Afficher les valeurs en 3D|在 3D 中显示数值|3D で値を表示|Mostrar valores em 3D
+217|Measure two selected atoms|Abstand zweier gewählter Atome messen|Mesurer deux atomes sélectionnés|测量两个选中的原子|選択した 2 原子を測定|Medir dois átomos selecionados
+218|Atom A|Atom A|Atome A|原子 A|原子 A|Átomo A
+219|Atom B|Atom B|Atome B|原子 B|原子 B|Átomo B
+220|Distance (Å)|Abstand (Å)|Distance (Å)|距离（Å）|距離（Å）|Distância (Å)
+221|Remove selected distance|Gewählten Abstand entfernen|Supprimer la distance sélectionnée|删除选中的距离|選択した距離を削除|Remover distância selecionada
+222|Clear CHIPIX distances|CHIPIX-Abstände löschen|Effacer les distances CHIPIX|清除 CHIPIX 距离|CHIPIX の距離を消去|Limpar distâncias CHIPIX
+223|Export distances CSV…|Abstände als CSV exportieren…|Exporter les distances en CSV…|导出距离 CSV…|距離を CSV に書き出し…|Exportar distâncias CSV…
+224|3D distances|3D-Abstände|Distances 3D|3D 距离|3D 距離|Distâncias 3D
+225|Image and display parameters saved.|Bild und Darstellungsparameter gespeichert.|Image et paramètres d’affichage enregistrés.|已保存图像和显示参数。|画像と表示パラメーターを保存しました。|Imagem e parâmetros de visualização salvos.
+226|Invalid residue specification.|Ungültige Restspezifikation.|Spécification de résidus non valide.|残基选择表达式无效。|残基指定が無効です。|Especificação de resíduos inválida.
+227|Select exactly two atoms to measure a distance.|Genau zwei Atome zur Abstandsmessung auswählen.|Sélectionnez exactement deux atomes pour mesurer une distance.|请选择恰好两个原子以测量距离。|距離を測定する原子をちょうど 2 個選択してください。|Selecione exatamente dois átomos para medir uma distância.
+228|Transparent background requires PNG or TIFF.|Ein transparenter Hintergrund erfordert PNG oder TIFF.|Un fond transparent nécessite PNG ou TIFF.|透明背景需要 PNG 或 TIFF。|透明背景には PNG または TIFF が必要です。|O fundo transparente requer PNG ou TIFF.
+229|Invalid box style.|Ungültiger Box-Stil.|Style de boîte non valide.|搜索框样式无效。|ボックスのスタイルが無効です。|Estilo de caixa inválido.
+230|The mesh is too dense; increase its spacing.|Das Gitter ist zu dicht; den Abstand vergrößern.|Le maillage est trop dense ; augmentez son espacement.|网格过密，请增大间距。|メッシュが密すぎます。間隔を広げてください。|A malha é muito densa; aumente seu espaçamento.
+231|Invalid PDBQT coordinates for the box transform.|Ungültige PDBQT-Koordinaten für die Box-Transformation.|Coordonnées PDBQT non valides pour transformer la boîte.|PDBQT 坐标无效，无法进行搜索框坐标变换。|ボックス変換に使用する PDBQT 座標が無効です。|Coordenadas PDBQT inválidas para transformar a caixa.
+232|Invalid or incompatible customization file.|Ungültige oder inkompatible Anpassungsdatei.|Fichier de personnalisation non valide ou incompatible.|自定义设置文件无效或不兼容。|カスタマイズファイルが無効または非対応です。|Arquivo de personalização inválido ou incompatível.
+233|The 3D image could not be saved.|Das 3D-Bild konnte nicht gespeichert werden.|Impossible d’enregistrer l’image 3D.|无法保存 3D 图像。|3D 画像を保存できませんでした。|Não foi possível salvar a imagem 3D.
+234|Handle color|Grifffarbe|Couleur des poignées|手柄颜色|ハンドルの色|Cor das alças
+235|Customize box|Box anpassen|Personnaliser la boîte|自定义搜索框|ボックスをカスタマイズ|Personalizar caixa
+236|Scene and image|Szene und Bild|Scène et image|场景与图像|シーンと画像|Cena e imagem
