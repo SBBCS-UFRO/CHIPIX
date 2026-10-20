@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "application": "CHIPIX",
+  "box": {
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      8.0,
+      8.0,
+      8.0
+    ],
+    "rotation": [
+      10.0,
+      20.0,
+      30.0
+    ]
+  },
+  "style": {
+    "mode": "mesh",
+    "color": [
+      1.0,
+      0.75,
+      0.1
+    ],
+    "radius": 0.08,
+    "spacing": 2.0,
+    "opacity": 0.3,
+    "rounded": true,
+    "handles": true,
+    "handle_radius": 0.45,
+    "handle_color": [
+      0.15,
+      0.8,
+      0.65
+    ]
+  },
+  "background": "white",
+  "background_rgb": [
+    0.15,
+    0.18,
+    0.22
+  ],
+  "lighting": "simple",
+  "image": {
+    "width": 960,
+    "height": 720,
+    "supersample": 3,
+    "transparent": false,
+    "box": true,
+    "handles": false,
+    "distances": true
+  },
+  "distances": {
+    "color": [
+      0.2,
+      1.0,
+      0.7
+    ],
+    "radius": 0.06,
+    "dashes": 9,
+    "label_size": 32,
+    "labels": true
+  },
+  "camera": {
+    "position_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.0031065940856933594
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.0007472038269042969
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        44.82177748970429
+      ]
+    ],
+    "name": "mono"
+  },
+  "export_scene": {
+    "background": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "lighting_preset": "simple",
+    "note": "Camera and styling record; this JSON does not contain molecular models."
+  }
+}
