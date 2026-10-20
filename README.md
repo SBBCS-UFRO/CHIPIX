@@ -28,7 +28,7 @@ Open UCSF ChimeraX and display its command line.
 Run the installation command below, replacing the path with the actual extracted folder. Use the wheel in dist/.
 
 ```text
-toolshed install "/FULL/PATH/CHIPIX-1.0.0/dist/UCSF ChimeraX_chipix-1.0.0-py3-none-any.whl"
+toolshed install "/User/PATH/CHIPIX-1.0.0/dist/chimeraX_chipix-1.0.0-py3-none-any.whl"
 chipix
 ```
 
