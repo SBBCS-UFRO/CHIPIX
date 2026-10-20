@@ -1,10 +1,10 @@
-<img src="src/assets/chipix-logo.png" width="80" align="right" alt="CHIPIX laboratory logo">
+<img src="long_logo.png" width="80" align="right" alt="CHIPIX laboratory logo">
 
 # CHIPIX
 
 **Molecular docking and pose consensus in ChimeraX**
 
-CHIPIX 1.0.0 is a native ChimeraX plugin from the Structural Bioinformatics & Bioactive Compound Synthesis Lab - UFRO. It combines external Vina/Smina docking, pose inspection and reproducible pairwise consensus in a dockable interface.
+CHIPIX is a native ChimeraX plugin from the Structural Bioinformatics & Bioactive Compound Synthesis Lab - UFRO. It combines external Vina/Smina docking, pose inspection and reproducible pairwise consensus in a dockable interface.
 
 [English](docs/en/README.md) · [Español](docs/es/README.md) · [Deutsch](docs/de/README.md) · [Français](docs/fr/README.md) · [简体中文](docs/zh/README.md) · [日本語](docs/ja/README.md) · [Português](docs/pt/README.md)
 
