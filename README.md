@@ -1,6 +1,6 @@
-<img src="long_logo.png" width="80" align="right" alt="CHIPIX laboratory logo">
-
 # CHIPIX
+
+<img src="long_logo.png" width="80" align="right" alt="CHIPIX laboratory logo">
 
 **Molecular docking and pose consensus in ChimeraX**
 
