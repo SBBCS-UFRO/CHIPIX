@@ -63,6 +63,6 @@ For GitHub, extract the ZIP and upload the contents of its CHIPIX-1.0.0 folder a
 
 CHIPIX code is GPL-3.0-or-later; see LICENSE and NOTICE. The original DockingPie workflow and scoring equations are credited to Serena Rosignoli and Alessandro Paiardini. Cite their 2022 Bioinformatics publication, doi:10.1093/bioinformatics/btac452, and the engines used. Vina is a separate program under its included Apache-2.0 license.
 
-[DockingPie publication](https://doi.org/10.1093/bioinformatics/btac452) · [UCSF ChimeraX bundles](https://UCSF ChimeraX.readthedocs.io/en/latest/writing_bundles.html) · [AutoDock Vina](https://github.com/ccsb-scripps/AutoDock-Vina/releases/tag/v1.2.7)
+[DockingPie publication](https://doi.org/10.1093/bioinformatics/btac452) · [UCSF ChimeraX bundles](https://chimerax.readthedocs.io/en/latest/writing_bundles.html) · [AutoDock Vina](https://github.com/ccsb-scripps/AutoDock-Vina/releases/tag/v1.2.7)
 
 © 2026 Structural Bioinformatics & Bioactive Compound Synthesis Lab - UFRO
